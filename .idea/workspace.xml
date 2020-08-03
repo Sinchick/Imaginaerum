@@ -20,6 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="00fa260d-d40f-4c85-b921-41fa614b242f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/SomeThink.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Testing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Testing.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,11 +37,15 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GithubProjectSettings">
     <option name="CREATE_PULL_REQUEST_DEFAULT_BRANCH" value="master" />
     <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_USER" value="Sinchick" />
     <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_NAME" value="Imaginaerum" />
   </component>
+  <component name="ProjectId" id="1faRmO8ggIE17TLQ4lq1EfwdiIC" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -55,7 +61,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea/workspace.xml" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/.idea/workspace.xml" />
   </component>
-  <component name="RunManager" selected="Application.LambdaForTest">
+  <component name="RunManager" selected="Application.SomeThink">
     <configuration name="Animal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Animal" />
       <module name="Imaginaerum" />
@@ -77,8 +83,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SomeThink" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SomeThink" />
+      <module name="Imaginaerum" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SomeThink" />
         <item itemvalue="Application.LambdaForTest" />
         <item itemvalue="Application.Animal" />
         <item itemvalue="Application.Building" />
@@ -130,6 +144,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="autoCreateWorkSpace" />
@@ -158,22 +173,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="744" y="387" key="Github.CreatePullRequestDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1596418729023" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1596419311677">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1596460596908">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1596419311677" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1596419311677">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1596460596908" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1596460596908">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1596419311677" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1596419311677">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1596460596908" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1596460596908">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1596419311677" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1596419311677">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1596460596908" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1596460596908">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1596419311677" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1596460596908" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1596418632571">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -186,5 +205,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="667" y="119" width="796" height="801" key="find.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1596411767628" />
+    <state x="2611" y="277" key="refactoring.ChangeSignatureDialog" timestamp="1596460464789">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2611" y="277" key="refactoring.ChangeSignatureDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1596460464789" />
   </component>
 </project>
