@@ -4,5 +4,15 @@
     <excludeFromCompile>
       <file url="file://$PROJECT_DIR$/.idea/workspace.xml" />
     </excludeFromCompile>
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="pom.xml" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>

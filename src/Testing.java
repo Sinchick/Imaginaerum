@@ -72,8 +72,8 @@ class Animal {
 
 class LambdaForTest {
     public static void main(String[] args) {
-        Math math;
-        math = (a, b) -> a + b;
+//        Math math;
+        Math math = (a, b) -> a + b;
 
         int result = math.Plus(15, 19);
         System.out.println(result);
