@@ -1,44 +1,61 @@
 import java.util.Random;
 
-public abstract class DropChance implements ToDropChance {
+public class DropChance implements ToDropChance {
 
-    static void otherTestRandomFromOtherClass(int proc) {
+    /**
+     * Testing drop chance
+     */
+
+    public static void main(String[] args) {
+
+    }
+
+    void otherTestRandomFromOtherClass(float proc) {
         int a = 1001;
         int i = 0;
-        for (; a >= proc; i++) {
+        for (; a > proc; i++) {
             a = random.nextInt(1000) + 1;
             System.out.println(a);
         }
-        System.out.println(i);
+        System.out.println("You go to dunge " + i + " times");
+        System.out.println("Non static obrabotka");
     }
 
-    private Float goToDange;
-    ToDropChance<Float, Integer> tryingDunge = ((chance, times) -> goToDange);
+    // Link on habr https://habr.com/ru/post/216431/
+    // Link on javaOnline https://www.tutorialspoint.com/compile_java_online.php
+    //todo реализовать интерфейс через 
 
-    public void crishnaid(ToDropChance<Float, Integer> rules) {
-        int a = 880055535;
-        rules.goToDange(2f, 4);
-    }
+//    ToDropChance<Float> tryingDunge = chance -> goToDange(2f);
 
-    public void goToDange(Float chance, Integer times) {
-        //chance *= 10;
+    @Override
+    public void goToDange(float chance) {
         int a = 880055535;
         if (chance < 1) {
-            int rechanceToInt = (int) (chance * 10);
-            otherTestRandomFromOtherClass(rechanceToInt);
+            chance *= 10;
+            otherTestRandomFromOtherClass(chance);
+        } else {
+            while (a >= chance) {
+                a = random.nextInt(100) + 1;
+                System.out.println(a);
+                Main.timesTryToDungeon++;
+            }
+            System.out.println("You go to dunge " + Main.timesTryToDungeon + " times");
+            System.out.println("MainTest obrabotka");
         }
-        while (a >= chance) {
-            a = random.nextInt(100) + 1;
-            System.out.println(a);
-            times++;
-        }
-        System.out.println(times);
     }
+
+    ToDropChance toDropChance = chance -> {
+        if (chance > 0)
+            goToDange(chance);
+        else if (chance <= 0) System.out.println("Error chance < 0");
+        else System.out.println("Kak Ti etogo Dobilsia Molotshiaga, ti naebnul chance");
+    };
+
 }
 
-interface ToDropChance<T, I> {
-    T goToDange(T chance, I times);
+interface ToDropChance {
+    Random random = new Random();
 
-    static Random random = new Random();
+    void goToDange(float chance);
 
 }

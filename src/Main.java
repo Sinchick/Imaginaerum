@@ -1,9 +1,11 @@
-import java.util.Random;
+
 
 public class Main {
 
+    static float timesTryToDungeon = 0;
+
     public static void main(String[] args) {
-//        DropChance.otherTestRandomFromOtherClass(100);
+        new DropChance().toDropChance.goToDange(0.1f);
     }
-//    static Random random = new Random();
 }
+
