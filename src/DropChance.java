@@ -23,16 +23,14 @@ public class DropChance implements ToDropChance {
 
     // Link on habr https://habr.com/ru/post/216431/
     // Link on javaOnline https://www.tutorialspoint.com/compile_java_online.php
-    //todo реализовать интерфейс через 
 
-//    ToDropChance<Float> tryingDunge = chance -> goToDange(2f);
-
+    //Check numbers under 1 or upper 1
     @Override
     public void goToDange(float chance) {
         int a = 880055535;
         if (chance < 1) {
             chance *= 10;
-            otherTestRandomFromOtherClass(chance);
+            new Main().fignia(chance);
         } else {
             while (a >= chance) {
                 a = random.nextInt(100) + 1;
